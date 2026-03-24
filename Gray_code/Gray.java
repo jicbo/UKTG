@@ -7,8 +7,8 @@ class Gray {
 
     static void gen(int n) {
         int max = (1 << n) - 1;
-        int base = (0 << n);
-        int res = (0 << n);
+        int base = 0;
+        int res = 0;
         System.out.println(bin(res, n));
         while(base<max) {
             int idx = Integer.numberOfTrailingZeros(~base);
