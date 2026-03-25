@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-class Gray {
+class gray_code {
     static String bin(int val, int len) {
         return Integer.toBinaryString((1 << len) | val).substring(1);
     }
